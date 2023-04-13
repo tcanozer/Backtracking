@@ -95,7 +95,6 @@ void backtracking(int n, int **colorMatrix, int currentRow, int *rowShiftCount,i
     }
 }
 
-
 void getColorMatrix(int n, int **colorMatrix, char *colorList[8], char **selectedColors){
     
     int i,j=0,k=0;
