@@ -71,7 +71,7 @@ void backtracking(int n, int **colorMatrix, int currentRow, int *rowShiftCount,i
         }
         else if(checkColumn(n, colorMatrix, currentRow) == 0){  //ilgili satir sarti sagladi
             if(currentRow == 0){
-                printf("\nBu giriş bilgisi için sonuç yoktur \n");
+                printf("\nBu giriş bilgisi için sonuç yoktur \n");
                 exit(0);
             }else{
                 if(currentRow+1 == n){
